@@ -21,3 +21,7 @@ An example application outlining a possible approach for building an HTBHF manag
 
 - `react-markdown` should be a dependency of `govuk-react`
 - Prop type errors exist on `govuk-react` `Link` component
+
+## Deployment to cloud foundry
+To deploy to cloud foundry, run `cf push` after doing a build.
+You can then go to [https://management-ui.london.cloudapps.digital/](https://management-ui.london.cloudapps.digital/) to view the app.

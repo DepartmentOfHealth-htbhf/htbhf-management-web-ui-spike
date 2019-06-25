@@ -7,7 +7,7 @@
   "license": "ISC",
   "scripts": {
     "start:dev": "parcel -p 8080 src/app/index.html",
-    "build": "parcel build src/app/index.html",
+    "build": "parcel build src/app/index.html && cp Staticfile dist/",
     "test": "npm run test:lint",
     "test:lint": "eslint src --ext .js,.jsx",
     "test:integration": "jest ./src/test/integration/*.integration.test.js"
